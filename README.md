@@ -1,6 +1,8 @@
+# Building Management System
 Develop a simple building management system (BMS) for maintaining different kinds of building records.
 
-BMS provide the following functions:
+
+# Functions:
 1. Create a building record (Apartment, House or any new kind of Building in the coming future).
 2. Modify a building record (Apartment, House or any new kind of Building in the coming future)
 3. Display Building details (such as building id, corresponding attributes and rooms) by a given building id (input building id=* to display all building records) 
@@ -12,7 +14,7 @@ BMS provide the following functions:
 <img width="374" alt="image" src="https://user-images.githubusercontent.com/127038426/232799052-e471e15a-d8bb-413f-9c73-4ca15dc16482.png">
 
 
-Code with the following design patterns:
+# Design patterns:
 1. <mark>Command pattern</mark> to provide the “add building”, “display buildings”, “modify building”, “add 
 room”, "delete room", "modify room", “undo”, “redo” and “list undo/redo list” functions
 2. Factory pattern or Abstract Factory Pattern to create different kinds of Command objects
